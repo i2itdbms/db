@@ -1,4 +1,5 @@
-```
+```sql
+
 CREATE TABLE Classes (
 class_ID INT PRIMARY KEY,
 class_name VARCHAR(20),
@@ -78,7 +79,8 @@ INSERT INTO Marks VALUES
 (1, 3, 2, 1, 'Midterm', 19),
 (1, 4, 2, 2, 'Midterm', 15);
 ```
-```
+```sql
+
 CREATE VIEW StudentMarksView AS
 SELECT 
 s.student_ID,
